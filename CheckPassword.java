@@ -26,7 +26,9 @@ public class CheckPassword {
 		CheckPassword cp=new CheckPassword();// 
 		Scanner sc = new Scanner(System.in);
 		String c,d;
+		System.out.println("Enter Your Password ");
 		c=sc.next();
+		System.out.println("Re-enter Your Password ");
 		d=sc.next();
 		cp.getpass(c, d);
 		cp.checkpass();
