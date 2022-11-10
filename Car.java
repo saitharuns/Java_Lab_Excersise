@@ -1,7 +1,5 @@
 package javathurlab;
 
-package javathurlab;
-
 enum Cars { // declaring cars in enum
 
 Audi, BMW, Volvo 
